@@ -2,7 +2,7 @@
 <ul>
   <% @employees.each do | employee | %>
     <li>
-      <b>Name:</b> <%= employee.firstname %> <%= employee.lastname %> | <b>Email:</b> <%= employee.email %>
+      <b>Name:</b> <%= employee.first_name %> <%= employee.last_name %> | <b>Email:</b> <%= employee.email %>
     </li>
   <% end %>
 </ul>
